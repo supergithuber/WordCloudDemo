@@ -20,7 +20,7 @@ wordlist = jieba.cut(text, cut_all=True)
 wl = " ".join(wordlist)
 # print(wl) #输出分词之后的txt
 
-coloring = np.array(Image.open(path.join(d, "weini.png")))
+coloring = np.array(Image.open(path.join(d, "mask.png")))
 
 # 设置停用词
 # stopwords = set(STOPWORDS)
